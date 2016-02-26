@@ -15,7 +15,7 @@ class CartfileParser
     parse.inject([]) do |deps, dep|
       deps.push({
         name: dep[1],
-        version: [dep[2],dep[3]].join || ">= 0",
+        version: [dep[2],dep[3]].join(' ') || ">= 0",
         type: type,
       })
     end.uniq
