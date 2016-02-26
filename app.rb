@@ -2,7 +2,7 @@ require 'bundler'
 
 Bundler.require
 
-require_relative 'lib/carthfile_parser'
+require_relative 'lib/cartfile_parser'
 
 class CarthageParser < Sinatra::Base
   use Rack::Deflater
@@ -13,18 +13,18 @@ class CarthageParser < Sinatra::Base
     set :show_exceptions, false
   end
 
-  post '/carthfile' do
+  post '/cartfile' do
     content_type :json
-    CarthfileParser.new(:runtime, params[:body]).to_json
+    CartfileParser.new(:runtime, params[:body]).to_json
   end
 
-  post '/carthfile.private' do
+  post '/cartfile.private' do
     content_type :json
-    CarthfileParser.new(:development, params[:body]).to_json
+    CartfileParser.new(:development, params[:body]).to_json
   end
 
-  post '/carthfile.resolved' do
+  post '/cartfile.resolved' do
     content_type :json
-    CarthfileParser.new(:runtime, params[:body]).to_json
+    CartfileParser.new(:runtime, params[:body]).to_json
   end
 end

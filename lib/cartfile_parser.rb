@@ -1,6 +1,6 @@
 require 'rogdl'
 
-class CarthfileParser
+class CartfileParser
   attr_reader :contents, :type
   def initialize(type, contents)
     @contents = contents
