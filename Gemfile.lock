@@ -10,7 +10,7 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     raindrops (0.17.0)
-    rake (11.2.2)
+    rake (11.3.0)
     rogdl (0.2.3)
     sinatra (1.4.7)
       rack (~> 1.5)
@@ -38,4 +38,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
