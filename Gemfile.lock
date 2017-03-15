@@ -3,7 +3,7 @@ GEM
   specs:
     kgio (2.11.0)
     minitest (5.10.1)
-    oj (2.18.2)
+    oj (2.18.3)
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
@@ -38,4 +38,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.14.4
+   1.14.6
