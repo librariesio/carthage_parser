@@ -5,7 +5,7 @@ gem 'bundler'
 gem 'sinatra'
 gem 'rogdl'
 gem 'oj'
-gem 'unicorn'
+gem 'puma'
 
 group :test do
   gem 'rack-test'
