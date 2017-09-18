@@ -3,7 +3,6 @@ GEM
   specs:
     minitest (5.10.3)
     mustermann (1.0.1)
-    oj (3.3.5)
     puma (3.10.0)
     rack (2.0.3)
     rack-protection (2.0.0)
@@ -25,7 +24,6 @@ PLATFORMS
 DEPENDENCIES
   bundler
   minitest
-  oj
   puma
   rack-test
   rake

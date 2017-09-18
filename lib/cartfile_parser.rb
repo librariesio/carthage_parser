@@ -8,7 +8,7 @@ class CartfileParser
   end
 
   def to_json
-    Oj.dump(dependencies, mode: :compat) unless contents.nil?
+    dependencies.to_json unless contents.nil?
   end
 
   def dependencies

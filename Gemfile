@@ -4,7 +4,6 @@ ruby '2.4.2'
 gem 'bundler'
 gem 'sinatra'
 gem 'rogdl'
-gem 'oj'
 gem 'puma'
 
 group :test do
