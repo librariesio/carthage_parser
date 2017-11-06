@@ -9,7 +9,7 @@ GEM
       rack
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
-    rake (12.1.0)
+    rake (12.2.1)
     rogdl (0.2.3)
     sinatra (2.0.0)
       mustermann (~> 1.0)
@@ -34,4 +34,4 @@ RUBY VERSION
    ruby 2.4.2p198
 
 BUNDLED WITH
-   1.15.4
+   1.16.0
