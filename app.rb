@@ -13,6 +13,10 @@ class CarthageParser < Sinatra::Base
     set :show_exceptions, false
   end
 
+  get '/' do
+    'OK'
+  end
+
   post '/cartfile' do
     content_type :json
     CartfileParser.new(:runtime, params[:body]).to_json
